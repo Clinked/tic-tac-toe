@@ -7,7 +7,7 @@ t2 = [" "]*3
 t3 = [" "]*3
 
 def changementJoueur(player1,player2):
-    x = 0
+    x = randint(1,2)
     while x < 9:
         if x%2 == 0:
             player1(t0,t1,t2,t3)
